@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
-		<header className="flex justify-center sticky top-0">
+		<header className="flex w-full justify-center sticky top-0">
 			<Navbar />
 		</header>
 		
