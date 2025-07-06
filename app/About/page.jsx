@@ -1,3 +1,5 @@
+'use client';
+
 export default function About() {
   return (
 	<div className="flex flex-col items-center justify-center mt-10 px-20 pb-20">

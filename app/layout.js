@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Navbar/page.jsx";
+import Navbar from "../components/Navbar/page.jsx";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,11 +28,9 @@ export default function RootLayout({ children }) {
 		<main className="flex-1">
 			{children}
 		</main>
-        
 
-		<footer className="w-full text-end p-5">
-			<p>&copy; 2025 Andrea Sasso | Built with Next.js</p>
-  		</footer>
+		
+        
       </body>
     </html>
   );
