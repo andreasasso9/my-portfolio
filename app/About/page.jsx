@@ -1,11 +1,10 @@
-'use client';
 
 export default function About() {
   return (
-	<div className="flex flex-col items-center justify-center mt-10 px-20 pb-20">
-	  <h1 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4">About Me</h1>
+	<div className="flex flex-col items-center justify-center mt-10 px-10 sm:px-0 pb-20">
+	  <h1 className="text-2xl sm:text-2xl md:text-4xl font-bold mb-4">About Me</h1>
 	  <section>
-			<div className="flex flex-col items-start max-w-3xl gap-5 text-l sm:text-xl md:text-2xl">
+			<div className="flex flex-col items-start max-w-3xl gap-5 text-base sm:text-xl">
 
 				<section>
 					<p><strong>Hi! I’m Andrea Sasso</strong>, a passionate young Italian software developer with a keen interest in technology and innovation.</p>

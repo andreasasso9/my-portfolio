@@ -1,4 +1,3 @@
-'use client';
 
 export default function Projects() {
   return (
@@ -7,7 +6,7 @@ export default function Projects() {
 	  <p className="text-lg sm:text-2xl text-center max-w-2xl">
 		Here are some of the projects I have worked on:
 	  </p>
-	  <div className="mt-10 text-l sm:text-xl">
+	  <div className="mt-10 text-base sm:text-xl">
 		<ul className="list-disc list-inside space-y-4">
 		  <li><a href="https://streamingmusicale.azurewebsites.net/">Clone Spotify</a> <a href="https://github.com/andreasasso9/ProgettoCloudComputing">(GitHub)</a></li>
 		  <li>Clone Vinted <a href="https://github.com/andreasasso9/ProgettoTesi-Server">(Server) </a> <a href="https://github.com/andreasasso9/ProgettoTesi-Client">(Client)</a></li>
